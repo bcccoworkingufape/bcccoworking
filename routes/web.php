@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return redirect()->route('home');
 });
 
@@ -57,7 +57,7 @@ Route::post('/edit.pessoa', 'PessoaController@editPessoa')->name('edit_pessoa');
 Route::post('/delete.pessoa', 'PessoaController@deletePessoa')->name('delete_pessoa');
 
 //nao logado
-Route::get('/home', 'ConfigPaginaInicialController@index')->name('home');
+Route::get('/', 'ConfigPaginaInicialController@index')->name('home');
   //project
 Route::get('/all.project', 'ProjectController@allProject')->name('all_project');
 Route::get('/show.project', 'ProjectController@showProject')->name('show_project');
