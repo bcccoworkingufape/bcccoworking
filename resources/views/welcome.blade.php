@@ -14,9 +14,9 @@
             <div class="row justify-content-center" style="text-align:center; margin-top:2rem;">
               <div class="col-md-4" style="margin-top:1rem;">
                 @if(isset($allHome->imagemCapa1) && $allHome->imagemCapa1 !="imagemHomeDefault1.png")
-                  <img class="styleImgPrincipal" src="{{asset('storage/imagens/home/' . $allHome->imagemCapa1)}}" alt="..."style="border-radius: 33px;">
+                  <img class="rounded-lg styleImgPrincipal" src="{{asset('storage/imagens/home/' . $allHome->imagemCapa1)}}" alt="..."style="border-radius: 33px;">
                 @else
-                  <img class="styleImgPrincipal" src="{{asset('imagens/img1.png')}}" alt="...">
+                  <img class="rounded-lg styleImgPrincipal" src="{{asset('imagens/img1.png')}}" alt="...">
                 @endif
               </div>
               <div class="col-md-1"> </div>
