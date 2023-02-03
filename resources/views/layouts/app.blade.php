@@ -109,26 +109,18 @@
           <div class="container">
             <div class="row justify-content-center" style="text-align:center; margin-top:0.5rem;">
               <div class="col-md-4">
-                <img src="{{asset('imagens/logo_bcc_rodape3.png')}}" alt="..." width="230px">
-              </div>
-              <div class="col-md-4" style="margin-top:0rem;">
-                <img src="{{asset('imagens/ufape_logo.png')}}" alt="..." width="160px">
+                <img src="{{asset('imagens/logo-bcc-ufape.png')}}" alt="..." width="auto" height="80px">
               </div>
               <div class="col-md-4" style="color:white; margin-top:0.9rem;">
                 <div class="row justify-content-center">
                   <div class="col-md-2">
-                    <a href="https://www.instagram.com/bccufape/" target="tab" style="text-decoration:none;">
+                    <a href="https://www.instagram.com/bcccoworking/" target="tab" style="text-decoration:none;">
                       <img src="{{asset('imagens/instagram_logo.png')}}" alt="..." width="32px" style="margin:5px;">
                     </a>
                   </div>
                   <div class="col-md-2">
-                    <a href="https://www.facebook.com/bccufape" target="tab" style="text-decoration:none;">
-                      <img src="{{asset('imagens/facebook_logo.png')}}" alt="..." width="32px" style="margin:5px;">
-                    </a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="https://www.youtube.com/bccufape" target="tab" style="text-decoration:none;">
-                      <img src="{{asset('imagens/youtube_logo.png')}}" alt="..." width="42px" style="margin:5px;">
+                    <a href="https://github.com/bcccoworkingufape/bcccoworking" target="tab" style="text-decoration:none;">
+                      <img src="{{asset('imagens/github_logo.png')}}" alt="..." width="32px" height="32px" style="margin:5px;">
                     </a>
                   </div>
                 </div>
